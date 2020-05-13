@@ -1,0 +1,240 @@
+
+
+
+
+
+/*============= COURSE SECTION =============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: red;
+  background-color: red;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: red;
+  background-color: red;
+  color: red;
+}
+
+.btn-outline-light:hover{
+  color: white;
+  background-color: red;
+
+}
+
+.home-inner{
+  background-image: url(pubgback.jpg);
+}
+.navbar{
+  background: rgba(0, 0 , 0, 0.6) !important;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  
+}
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+ color:red
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+ color: red;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+}
+
+.caption h1{
+  font-weight: 700;
+  font-size: 3.8rem;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+body{
+
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+color: #505962;
+
+}
+
+footer{
+  background-color: rgb(68, 67, 67);
+  color: white;
+  font-size: 1rem;
+  
+  
+}
+footer img{
+padding: 3rem;
+}
+
+h3.heading{
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.heading-underline{
+  width: 6rem;
+  height: .2rem;
+  background-color: red;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+
+}
+
+.fa-clock,.fa-handshake,.fa-ban,.fa-quote-left {
+  color: red;
+}
+.feature img{
+  width: 50%;
+  border-radius: 50%;
+  
+}
+
+.fixed{
+  background-image: url(download\ \(1\).jpg);
+  width: 100%;
+  
+}
+.dark{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3{
+  margin-bottom: 2rem;
+}
+
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+
+.clients img{
+  width: 90%;
+  border-bottom-width: 10%;
+  border-radius: 50%;
+}
+
+
+
+.clients-hr{
+  background-color: red;
+
+}
+.fa-facebook-square,.fa-twitter-square,.fa-instagram{
+  color: red;
+  font-size: 1.6rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+  
+}
+
+ 
+
+
+/*media queries*/
+
+@media (max-width: 767px)
+{
+
+  
+  .caption h1{
+    
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    
+    padding-bottom: .5rem;
+  }
+  
+  
+  .caption h3{
+    font-size: 1.2rem;
+    
+    padding-bottom: 1.2rem;
+  
+  }
+
+  .narrow h1{
+    font-size: 1.5rem;
+  }
+
+.clients img{
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
