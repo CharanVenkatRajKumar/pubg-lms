@@ -199,7 +199,7 @@ hr.socket{
     
     font-size: 2.3rem;
     letter-spacing: .15rem;
-    color: rgb(111, 0, 255);
+    color: rgb(231, 43, 43);
     
     padding-bottom: .5rem;
   }
@@ -207,7 +207,7 @@ hr.socket{
   
   .caption h3{
     font-size: 1.2rem;
-    color: rgb(111, 0, 255);
+    color: rgb(231, 43, 43);
     padding-bottom: 1.2rem;
   
   }
